@@ -1,0 +1,31 @@
+//Bootstrap
+$primary: #03a9f3 !default;
+$secondary: #f8f9fa !default;
+$info: #2bbbad !default;
+$success: #00c851 !default;
+$warning: #fec107 !default;
+$danger: #ff3547 !default;
+
+// Card
+//$card-border-width: 0px;
+$grid-gutter-width: 20px !default;
+
+// Body
+$body-bg: #edf1f5 !default;
+$body-color: #434d51 !default;
+
+//$border-width: 1px !default;
+$border-color: #e9ecef !default;
+
+$font-family-base: Roboto, "Segoe UI", -apple-system, "Helvetica Neue", Arial, "Noto Sans", sans-serif !default;
+
+@import "~bootstrap/scss/bootstrap";
+
+
+//fortawesome
+$fa-font-path: "~@fortawesome/fontawesome-free/webfonts";
+
+@import "~@fortawesome/fontawesome-free/scss/fontawesome";
+@import "~@fortawesome/fontawesome-free/scss/brands";
+@import "~@fortawesome/fontawesome-free/scss/solid";
+@import "~@fortawesome/fontawesome-free/scss/regular";
